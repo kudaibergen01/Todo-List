@@ -1,0 +1,42 @@
+body{
+    background-image: url("https://images.ua.prom.st/1656112335_w640_h640_kartina-priroda-holst.jpg");
+  }
+  
+  .todo {
+      align-self: center;
+      color: white;
+      
+    }
+    
+    
+    
+   
+    
+    .todo input::placeholder {
+      color: black;
+      font-size: 1.3rem;
+    }
+    
+    .todo input:focus {
+      outline: none;
+      border: 2px dotted black;
+    }
+    
+    .todo .add-btn {
+      padding: 10px;
+      border-radius: 30%;
+      color: black;
+      font-size: 1.2rem;
+      background-color: yellow;
+      border: none;
+      margin-left: 10px;
+      cursor: pointer;
+      border: 3px solid black;
+    }
+    
+    .todo .add-btn:hover {
+      padding: 15px;
+      font-size: 1.5rem;
+    }
+    
+   
